@@ -8,11 +8,18 @@
 //Make it phone compatible 
 
 import React from 'react'
+import { NavLink } from 'react-bootstrap'
 
-const nav = () => {
+const Nav = () => {
   return (
-    <div>nav</div>
+    <div>
+      <NavLink to='/'> Home</NavLink>
+      Hello there loser
+
+
+
+    </div>
   )
 }
 
-export default nav
+export default Nav
