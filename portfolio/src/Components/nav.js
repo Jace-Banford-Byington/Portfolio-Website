@@ -17,7 +17,7 @@ const Nav = () => {
 const Linkedin = 'https://www.linkedin.com/in/jace-banford-byington/';
 const Github = 'https://github.com/Jace-Banford-Byington'
 const Email = 'mailto:jacebanfordbyington@gmail.com'; //make it open new email message with to line being to jacebanfordbyington@gmail.com
-const Resume =; //have download file
+const Resume = './public/banfordbyington_jace_BSWD.pdf'; //have download file
 
 const goTo = (url, isDownloaded = false) => {
     if(isDownloaded){
