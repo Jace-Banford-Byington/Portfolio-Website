@@ -1,23 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, BrowserRouter as Router, RouterProvider } from 'react-router-dom';
 import './index.css';
 import Home from './Components/home';
+import Nav from './Components/nav';
 import reportWebVitals from './reportWebVitals';
-import { path } from 'express/lib/application';
 
-const router = createBrowser({
-   {
-  path: '/',
+
+const router = createBrowserRouter([
+ {
+  //home
+    path: '/',
     element : <>
     <Nav />
     <Home />
     </>
-   },
-  {
-
-  }
-});
+ },  
+{
+  
+}
+ 
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

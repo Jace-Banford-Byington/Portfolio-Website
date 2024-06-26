@@ -33,7 +33,6 @@ const goTo = (url, isDownloaded = false) => {
         window.open(url, '_blank');
       }
     }
-}
 
 
 
@@ -51,6 +50,7 @@ const goTo = (url, isDownloaded = false) => {
     <button onClick={() => goTo(Linkedin)}>Linkedin</button>
     <button onClick={() => goTo(Github)}>Github</button>
     </>
-  )   
+  )  
+} 
 
-export default Nav
+export default Nav;
